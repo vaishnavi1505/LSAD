@@ -1,6 +1,6 @@
 For traffic sign classfication:
 1. dataset: German Traffic Sign Recognition Benchmark (GTSRB) Including: training set: 39209 images;testing set:12630 images;
-   classes: 43; image size: 32x32
+   classes: 43
 2. model: LeNet-5
 3. training: For the loss we used CrossEntropy + softmax for multi-category classfication; Optimizer we used Adaptive Moment Estimation(Adam) here;
    metrics we used here is accuracy that 'predicted correct sample size/ total sample'; within 50 epochs the accuracy is 99.4% .
